@@ -1,74 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-#head{
-	margin:auto;
-	margin-top:30px;
-	width:1200px;
-    height:300px;
-    background-color:none;
-    border-style:dashed;
-    border-width:1px; 
+body{
+	background:#DCBEBE
+}
+
+.contenedor{
+	width:80%;
+	max-width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#FFFFFF; 
 
 }
 
+header{
+	background:#FFFFFF;
+	margin:50px;
 
-#izquierda{
-	margin: auto;
-	margin-top:50px;
-	margin-left:90px; 
-    width:500px;
-    height:200px;
-    background-color: none;
-    float: left;
+}
+
+header h1{
+	font-family: 'Oswald', sans-serif;
+	text-align:center;
+	font-weight:400;  
+}
+
+header h3{
+	font-family: 'Pacifico', cursive;
+	text-align:center;
+	font-weight:200; 
+	margin-top:10px;
+}
+
+header hr{
+	color:#6D2249;
+	size:5;
+	width:150;
+}
+
+.main{
+	width:100%;
+	height:500px;
+	background:#FFFFFF;
+	padding:20px;
+	float:center;
+	box-sizing: border-box;
+}
+
+.main hr{
+    color:#6D2249;
+	size:5;
+	width:150;
+	height:500;
+
+}
+
+footer{
+	clear: both;
+	float:center;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	width:100%;
+	padding:20px;
+	color:#FFFFFF;
+	background:#FFFFFF;
+}
+
+footer hr{
+    color:#6D2249;
+	size:5;
+	width:150;
 }
 
 
-#entrada{
-	margin-top:150px;
-	text-align: center;
-	font-family: Arial;
-	font-size: 20px;
-	color:#2188AE; 
-}
-
-#derecha{
-	margin: auto;
-	margin-top:50px;
-	 
-    width:500px;
-    height:200px;
-    background-color:none; 
-    float: left;
-}
-
-#logo{
-	text-align: right;
-	font-family: Arial;
-	font-size: 80px;
-	color:#C13434;
+@media screen and (max-width: 800px){
+	.main{
+		width: 100%;
 	}
-
-#body{
-	margin:auto;
-	margin-top:20px;
-	width:1200px;
-    height:900px;
-    background-color:none;
-    border-style:dashed;
-    border-width:1px; 
 }
 
-#footer{
-	margin:auto;
-	margin-top:20px;
-	margin-bottom:30px; 
-	width:1200px;
-    height:100px;
-    background-color:none;
-    border-style:dashed;
-    border-width:1px;
+@media screen and (max-width: 400px){
+	.contenedor{
+		width: 100%
+	}
 }
-
