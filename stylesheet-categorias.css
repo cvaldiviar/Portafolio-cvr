@@ -12,23 +12,23 @@ body{
 
 .contenedor{
 	width:680px;
-	height:773px; 
+	height:3657px; 
 	margin:0 auto;
 	overflow:hidden;
-	background:#FFFFFF; 
+	background:none; 
 }
 
 .header{
 	width:680px;
-	height:253px;
+	height:134px;
 	margin:0 auto;
 	overflow:hidden;
 	background:#FFFFFF;
 }
 
-#titulo{
+#categoria{
 	width:680px;
-	height:65px;
+	height:168px;
 	margin:0 auto;
 	overflow:hidden;
 	background:#FFFFFF;
@@ -37,7 +37,8 @@ body{
 h1{
 	font-family: 'Oswald', sans-serif;
 	text-align:center;
-	font-size:50px;
+	margin-top:108px;
+	font-size:40px;
 	font-weight:700px;  
 	color:#585858;
 }
@@ -85,72 +86,83 @@ hr {
 	border: 1px solid #2E9AFE ;
 }
 
-#menu{
-	width:680px;
-	height:374px;
-	background-color:none;	
+.titulo{
+	width:597px;
+	height:142px;
+	margin:0 auto;
+	overflow:hidden;
+	background:none;
+
 }
 
-.izquierda{
-	width:218px;
-	height:359px;
-	margin-top:15px;
-	float:left;
-	background:#F8E0EC;	
-}
-
-.centro{
-	width:218px;
-	height:359px;
-	margin-top:15px;
-	margin-left:13px;
-	float:left;
-	background:#F8E0EC;	
-}
-
-.derecha{
-	width:218px;
-	height:359px;
-	margin-top:15px;
-	margin-left:13px;
-	float:left;
-	background:#F8E0EC;	
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+    color:#585858;
+    text-align:center;
+    text-decoration:none;
+    margin-top:38px;
 }
 
 h3{
 	font-family: 'Oswald', sans-serif;
 	font-weight:700;
+	font-size:20px; 
     color:#2E9AFE;
     text-align:center;
     text-decoration:none;
-    margin-top:152px;
+
 }
 
-p{
-	font-family: 'Arimo', sans-serif;
-	font-weight:400px;
-	font-size:12px;
-	padding:20px;
-	color:#585858;
-	text-align:center;
-	
-}
-
-footer{	
-	width:680px;
-	height:37px;
+.imagenes{
+	width:597px;
+	height:294px;
 	margin:0 auto;
 	overflow:hidden;
-    background:none;
+	background:grey;
 
+}
+
+#ficha{
+    width:597px;
+	height:331px;
+	margin:0 auto;
+	overflow:hidden;
+	background:none;
+	padding-top:27px;
+	padding-bottom:-27px;
+}
+
+.texto{
+    width:419px;
+	height:283px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#F8E0EC;
 }
 
 h6{
 	font-family: 'Arimo', sans-serif;
-	font-weight:400px;
-	font-size:9px;
-	padding:15px;
+	font-weight:700;
+	font-size:12px;
+	color:#2E9AFE;
+    padding-left:39px;
+    padding-right:39px;
+    padding-top:13px;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+	font-weight:400;
+	font-size:11px;
 	color:#585858;
-	text-align:right;
-	
+    padding-left:39px;
+    padding-right:39px;	
+}
+
+.espacio{
+	width:597px;
+	height:26px;
+	margin:0 auto;
+	overflow:hidden;
 }
