@@ -12,73 +12,83 @@ body{
 
 .contenedor{
 	width:680px;
-	height:773px; 
+	height:544px; 
 	margin:0 auto;
 	overflow:hidden;
-	background:#FFFFFF; 
-}
-
-.header{
-	width:680px;
-	height:253px;
-	margin:0 auto;
-	overflow:hidden;
-	background:#FFFFFF;
-}
-
-#titulo{
-	width:680px;
-	height:65px;
-	margin:0 auto;
-	overflow:hidden;
-	background:#FFFFFF;
-}
-
-h1{
-	font-family: 'Oswald', sans-serif;
-	text-align:center;
-	font-size:50px;
-	font-weight:700px;  
-	color:#585858;
+	background:none;
+	margin-top:50px; 
 }
 
 .navegador{
 	width:680px;
-	height:53px;
-	background-color:none;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#F8E0EC;
+}
+
+a{
+	text-decoration:none;
 }
 
 nav ul{
 	list-style:none;
 	margin:auto;
 	padding:0px;
-	height:53px;
-	width:250px; 
+	height:50px;
+    width:500px; 
 }
 
 nav ul li{
 	float:left;
+
 }
 
 nav ul li a{
 	text-decoration:none;
-	line-height:27px;
+	line-height:25px;
+	padding:0px;
 	display:block;
-	width:100px;
+	width:95px;
     color:#2E9AFE;
     text-align:center;
-    padding:10px;
-
+    margin-top:7px;
 }
 
 nav h5{
 
 	font-family: 'Oswald', sans-serif;
 	font-weight:500;
+	font-size:12px;
     border-style:solid;
     border-color:#2E9AFE;
     border-width:1px;
-    margin-left:4px;
+    margin-left:8px;
+}
+
+header{
+	width:680px;
+	height:120px;
+	margin:0 auto;
+	overflow:hidden;
+	background:none;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:22px;
+    color:#585858;
+	text-align:center;
+    margin-top:35px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+	font-weight:500;
+	font-size:15px;
+    color:#585858;
+	text-align:center;
 }
 
 hr {
@@ -88,7 +98,7 @@ hr {
 #menu{
 	width:680px;
 	height:374px;
-	background-color:none;	
+	background-color:none;
 }
 
 .izquierda{
@@ -96,7 +106,9 @@ hr {
 	height:359px;
 	margin-top:15px;
 	float:left;
-	background:#F8E0EC;	
+	background:#F8E0EC;
+
+
 }
 
 .centro{
@@ -105,7 +117,8 @@ hr {
 	margin-top:15px;
 	margin-left:13px;
 	float:left;
-	background:#F8E0EC;	
+	background:#F8E0EC;
+
 }
 
 .derecha{
@@ -114,7 +127,7 @@ hr {
 	margin-top:15px;
 	margin-left:13px;
 	float:left;
-	background:#F8E0EC;	
+	background:#F8E0EC;
 }
 
 h3{
@@ -123,7 +136,7 @@ h3{
     color:#2E9AFE;
     text-align:center;
     text-decoration:none;
-    margin-top:152px;
+    margin-top:20px;
 }
 
 p{
@@ -136,11 +149,18 @@ p{
 	
 }
 
+span{
+	display:block;
+	text-align:center;
+	margin-top:50px;
+}
+
 footer{	
 	width:680px;
 	height:37px;
 	margin:0 auto;
 	overflow:hidden;
+	margin-top:10px;
     background:none;
 
 }
@@ -149,7 +169,7 @@ h6{
 	font-family: 'Arimo', sans-serif;
 	font-weight:400px;
 	font-size:9px;
-	padding:15px;
+	padding:20px;
 	color:#585858;
 	text-align:right;
 	
