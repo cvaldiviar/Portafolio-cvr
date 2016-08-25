@@ -22,7 +22,7 @@
      <a href="editorial.html"><h5>Editorial</h5></a>
    </li>
    <li>
-     <a href="investigacion.html"><h5>InvestigaciÃ³n</h5></a>
+     <a href="investigacion.html"><h5>Investigación</h5></a>
    </li>  
    <li>   
      <a href="perfil.html"><h5>Perfil</h5></a>
@@ -34,7 +34,7 @@
 
   <header>
    <h1>Constanza Valdivia Rojas</h1>
-   <h2>DiseÃ±o GrÃ¡fico</h2>
+   <h2>Diseño Gráfico</h2>
   </header>
 
 <hr></hr>
@@ -42,24 +42,24 @@
 <section id="menu">
 <article class="izquierda">
    <a href="proyectos.html">
-   <span><img src="iconos/icono-proyectos-uno-cvr"><h3>PROYECTOS</h3></span></a>
+   <span><img src="imagenes/icono-proyectos-cvr.png"><h3>PROYECTOS</h3></span></a>
 
-  <p>DiseÃ±o de paneles grÃ¡ficos (TÃ©cnica e impresiÃ³n) y 
-  DiseÃ±o de interacciÃ³n de objetos (Interfaz tangible de Usuario).</p>
+  <p>Diseño de paneles gráficos (Técnica e impresión) y 
+  Diseño de interacción de objetos (Interfaz tangible de Usuario).</p>
 </article>
 
 <article class="centro">
   <a href="editorial.html">
-  <span><img src="iconos/icono-editorial-uno-cvr"><h3>EDITORIAL</h3></span></a>
+  <span><img src="imagenes/icono-editorial-cvr.png.png"><h3>EDITORIAL</h3></span></a>
 
-  <p>DiseÃ±o de maquetaciÃ³n y composiciÃ³n de texto e imÃ¡gen.</p>
+  <p>Diseño de maquetación y composición de texto e imágen.</p>
 </article>
 
 <article class="derecha">
   <a href="investigacion.html">
-  <span><img src="iconos/icono-investigacion-uno-cvr"><h3>INVESTIGACIÃ“N</h3></span></a>
+  <span><img src="imagenes/icono-investigacion-cvr.png"><h3>INVESTIGACIÓN</h3></span></a>
 
-  <p>IndagaciÃ³n en base a un tema de estudio de objetivo acadÃ©mico.</p>   
+  <p>Indagación en base a un tema de estudio de objetivo académico.</p>   
 </article>
 </section>
 
