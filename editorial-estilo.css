@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+	background:none;
+}
+
+.contenedor{
+	width:680px;
+	height:3657px; 
+	margin:0 auto;
+	overflow:hidden;
+	background:none;
+	margin-top:50px; 
+}
+
+.header{
+	width:680px;
+	height:134px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#FFFFFF;
+}
+
+#categoria{
+	width:680px;
+	height:168px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#FFFFFF;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	text-align:center;
+	margin-top:108px;
+	font-size:40px;
+	font-weight:700px;  
+	color:#585858;
+}
+
+nav{
+    width:680px;
+	height:40px;
+	margin:10px auto;
+	background-color:#F8E0EC;
+
+}
+
+
+nav ul{
+	list-style:none;
+	width:680px;
+	height:40px;
+}
+
+nav ul li{
+	float:left;
+	width:113.34px;
+	height:40px;
+	background-color:none; 
+
+}
+
+nav ul li a{
+	text-decoration:none;
+	text-align:center;
+	line-height:40px;
+	color:#2E9AFE;
+	padding:0px;
+	display:block;
+}
+
+nav ul li a:hover{
+	background-color:#FEEEF6; 
+}
+
+nav h5{
+
+	font-family: 'Oswald', sans-serif;
+	font-weight:500;
+	font-size:12px;
+}
+
+hr {
+	border: 1px solid #2E9AFE ;
+}
+
+.titulo{
+	width:597px;
+	height:142px;
+	margin:0 auto;
+	overflow:hidden;
+	background:none;
+
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+    color:#585858;
+    text-align:center;
+    text-decoration:none;
+    margin-top:38px;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:20px; 
+    color:#2E9AFE;
+    text-align:center;
+    text-decoration:none;
+
+}
+
+#ficha{
+    width:597px;
+	height:331px;
+	margin:0 auto;
+	overflow:hidden;
+	background:none;
+	padding-top:27px;
+	padding-bottom:-27px;
+}
+
+.texto{
+    width:419px;
+	height:283px;
+	margin:0 auto;
+	overflow:hidden;
+	background:#F8E0EC;
+}
+
+h6{
+	font-family: 'Arimo', sans-serif;
+	font-weight:700;
+	font-size:12px;
+	color:#2E9AFE;
+    padding-left:39px;
+    padding-right:39px;
+    padding-top:13px;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+	font-weight:400;
+	font-size:11px;
+	color:#585858;
+    padding-left:39px;
+    padding-right:39px;
+    line-height:20px;	
+}
+
+.espacio{
+	width:597px;
+	height:26px;
+	margin:0 auto;
+	overflow:hidden;
+}
