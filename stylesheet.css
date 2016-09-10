@@ -13,7 +13,9 @@ body{
 
 .contenedor{
 	width:70%;
-	margin:0 auto;
+	min-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
 	overflow:hidden;
 	background:none; 
 }
@@ -90,6 +92,7 @@ nav ul li a:hover{
 
 .izquierda{
 	width:32%;
+	height:500px;
 	float:left;
 	background:#58ACFA;
 	padding:20px;
@@ -129,6 +132,7 @@ nav ul li a:hover{
 
 .centro{
 	width:32%;
+	height:500px;
 	margin-left:18.5px;
 	float:left;
 	padding:20px;
@@ -169,6 +173,7 @@ nav ul li a:hover{
 
 .derecha{
 	width:32%;
+	height:500px;
 	margin-left:18.5px;
 	padding:20px;
 	float:left;
