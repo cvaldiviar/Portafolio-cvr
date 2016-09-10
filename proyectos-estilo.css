@@ -106,7 +106,6 @@ nav ul li a:hover{
 
 .textura img{
 	width:100%;
-	
 	margin:auto;
 	position:relative;
 	padding:0px;
@@ -183,7 +182,7 @@ nav ul li a:hover{
 	top:0;
 	left:0;
 	min-width:100%;
-	height:100%;
+	max-height:100%;
 	opacity:0;
 	transition:all 2s;
  }
@@ -235,7 +234,7 @@ nav ul li a:hover{
 	top:0;
 	left:0;
 	min-width:100%;
-	height:100%;
+	max-height:100%;
 	opacity:0;
 	transition:all 2s;
  }
@@ -287,7 +286,7 @@ nav ul li a:hover{
 	top:0;
 	left:0;
 	min-width:100%;
-	height:100%;
+	max-height:100%;
 	opacity:0;
 	transition:all 2s;
  }
@@ -339,7 +338,7 @@ nav ul li a:hover{
 	top:0;
 	left:0;
 	min-width:100%;
-	height:100%;
+	max-height:100%;
 	opacity:0;
 	transition:all 2s;
  }
@@ -375,7 +374,7 @@ nav ul li a:hover{
 #infografia{
 	width:100%;
 	height:400px;
-	background-color:red;
+	background-color:#58ACFA;
 }
 
 .main{
@@ -402,6 +401,15 @@ nav ul li a:hover{
 	font-weight:300px;
 	font-size:22px;
 	line-height:50px;
+	color:#58ACFA;
+}
+
+
+.ficha h4{
+	font-family: 'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:18px;
+	line-height:40px;
 	color:#58ACFA;
 }
 
