@@ -1,0 +1,9 @@
+@media only screen and (orientation: portrait){
+.contenedor{
+	width:70%;
+	min-width:300px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow:hidden;
+	background:none; 
+}

@@ -8,6 +8,39 @@
 	background:none; 
 }
 
+nav{
+    width:100%;
+	height:80px;
+	margin:10px auto;
+	background-color:#58ACFA;
+}
+
+
+nav ul{
+	list-style:none;
+	width:100%;
+	height:80px;
+}
+
+nav ul li{
+	float:left;
+	width:25%;
+	height:80px;
+	background-color:none;
+	position: relative; 
+
+}
+
+nav li ul{
+	display: none; 
+	position: absolute; 
+	left: 99px; 
+	top: 0;
+}
+
+li:hover ul { display: block; }
+
+
 .izquierda{
 	width:100%;
 	height:500px;
@@ -40,5 +73,16 @@
 	margin-bottom: 20px;    	
 }
 
+.izquierda:hover{
+	background-color:#58ACFA; 
+}
+
+.centro:hover{
+	background-color:#58ACFA; 
+}
+
+.derecha:hover{
+	background-color:#58ACFA; 
+}
 
  }
