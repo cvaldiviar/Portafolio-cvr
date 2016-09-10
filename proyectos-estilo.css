@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400);
-@import url(https://fonts.googleapis.com/css?family=Euphoria+Script);
 @import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400);
+
 
 *{
     margin: 0px;
@@ -12,59 +11,64 @@ body{
 	background:none;
 }
 
-.borde{
-	width:850px;
-	height:20px;
-	margin:0 auto;
-	overflow:hidden;
-	background:#F2F2F2;
-}
-
 .contenedor{
-	width:850px;
-	height:4200px; 
+	width:70%;
 	margin:0 auto;
 	overflow:hidden;
 	background:none; 
 }
 
-nav{
-    width:850px;
-	height:60px;
-	margin:none;
-	background-color:none;
+header{
+	width:100%;
+	margin:0 auto;
+	background:none;
+}
 
+header h1{
+	font-family: 'Comfortaa', cursive ;
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+	padding-top:80px;	
+}
+
+header h2{
+    font-family:'Jaldi', sans-serif;
+	font-weight:300;
+	font-size:30px;
+	text-align:center;
+}
+
+nav {
+    width:100%;
+	height:0px;
+	margin:10px auto;
+	margin-bottom: 20px;
+	background-color: #58ACFA;
 }
 
 
 nav ul{
 	list-style:none;
-	width:850px;
-	height:60px;
+	width:100%;
+	height:80px;
 }
 
 nav ul li{
 	float:left;
-	width:170px;
-	height:60px;
-	background-color:none; 
+	width:20%;
+	height:80px;
+	background-color:#58ACFA; 
 
 }
 
 nav ul li a{
 	text-decoration:none;
 	text-align:center;
-	line-height:60px;
+	line-height:80px;
+	color:white;
 	padding:0px;
 	display:block;
-}
-
-nav h5{
-
-	font-family: 'Comfortaa', cursive;
-	font-weight:400;
-	font-size:18px;
-	color:black;
 }
 
 nav h4{
@@ -72,38 +76,42 @@ nav h4{
 	font-family: 'Comfortaa', cursive;
 	font-weight:400;
 	font-size:18px;
-	color:black;
-	background-color:#F2F2F2; 
 }
-
 
 nav ul li a:hover{
-	background-color:#F2F2F2; 
+	background-color:#5882FA; 
 }
 
 
-.titulo{
-	width:850px;
-	height:142px;
+.proyecto{
+	width:100%;
 	margin:0 auto;
-	margin-top:40px;
+	margin-top:20px;
 	overflow:hidden;
 	background:none;
+	padding:40px;
+	box-sizing:border-box;	
 }
 
-
-h3{
+.proyecto h1{
 	font-family: 'Comfortaa', cursive;
     font-weight:400;
 	font-size:38px; 
     color:#58ACFA;
     text-align:center;
-    text-decoration:none;
+    line-height:50px;	
+}
 
+.textura img{
+	width:100%;
+	
+	margin:auto;
+	position:relative;
+	padding:0px;
 }
 
 #uno{
-	width:850px;
+	width:100%;
 	height:400px;
 	margin:auto;
 	margin-top:10px;
@@ -155,8 +163,7 @@ h3{
 }
 
 #dos{
-	width:850px;
-	height:400px;
+	width:100%;
 	margin:auto;
 	margin-top:10px;
 	position:relative;
@@ -207,8 +214,7 @@ h3{
 }
 
 #tres{
-	width:850px;
-	height:400px;
+	width:100%;
 	margin:auto;
 	margin-top:10px;
 	position:relative;
@@ -259,8 +265,7 @@ h3{
 }
 
 #cuatro{
-	width:850px;
-	height:400px;
+	width:100%;
 	margin:auto;
 	margin-top:10px;
 	position:relative;
@@ -310,61 +315,184 @@ h3{
 	border:1px solid white;
 }
 
-.texto{
-    width:840px;
-	height:350px;
+#cinco{
+	width:100%;
+	margin:auto;
+	margin-top:10px;
+	position:relative;
+	list-style:none;
+	padding:0px;
+	display:flex;
+
+	justify-content:center;
+	align-items:flex-end; 
+}
+
+#cinco img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:all 2s;
+ }
+
+#cinco input[type="radio"]{
+    display:none;
+}
+
+#cinco input[type="radio"]:checked ~ img{
+	opacity:1;
+}
+
+#cinco input[type="radio"] + label{
+    position:relative;
+	z-index:50;
+	margin:10px;
+
+	display:block;
+	width:20px;
+	height:20px;
+	background:none;
+	border-radius:50%;
+	border:2px solid;
+	border-color:#585858;
+	cursor:pointer;  
+}
+
+#cinco input[type="radio"]:checked + label{
+	background:#FFFFFF;
+	border:1px solid white;
+}
+
+.main{
+	width:100%;
+	height:941px;
+	background:none;
+}
+
+
+.ficha{
+	width:100%;
 	margin:0 auto;
 	overflow:hidden;
 	background:none;
-	margin-top:40px;
-	padding-top:27px;
-	padding-bottom:-27px;
+	margin-top:20px;
+	padding:40px;
 	border-style:solid;
-	border-color:#E0ECF8;
+	border-color:#58ACFA;
+    box-sizing:border-box;	
 }
 
-h2{
-	font-family: 'Jaldi', sans-serif;
-	font-weight:700;
-	font-size:20px;
+.ficha h3{
+	font-family: 'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:22px;
+	line-height:50px;
 	color:#58ACFA;
-    padding-left:39px;
-    padding-right:39px;
-    padding-top:13px;
 }
 
-p{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+.ficha p{
+	font-family: 'Comfortaa', cursive ;
 	font-weight:300px;
 	font-size:16px;
-	color:black;
-    padding-left:39px;
-    padding-right:39px;
-    line-height:20px;	
+    line-height:30px;
 }
 
-.espacio{
-	width:597px;
-	height:26px;
-	margin:0 auto;
-	overflow:hidden;
-}
+.reseña{
+	width:47%;
+	float:left;
+	margin-top:20px;
+	margin-bottom:44px;
+	background:none;
+	padding:40px;
+	box-sizing:border-box;	
+	}
 
-footer{	
-	width:850px;
-	height:40px;
-	margin:0 auto;
-	margin-top:30px;
-	overflow:hidden;
-    background:none;
-}
-
-h6{
-	font-family:'Euphoria Script', cursive;
+.reseña p{
+	font-family: 'Comfortaa', cursive ;
 	font-weight:300px;
-	font-size:16px;
-	margin-top:6px;
-	color:black;
+	font-size:18px;
+	line-height:30px;
+}
+
+.formación{
+	width:47%;
+	margin-left:56px; 
+	float:left;
+	margin-top:20px;
+	margin-bottom:44px;
+	background:none;
+	padding:40px;
+	box-sizing:border-box;
+}
+
+.formación h2{
+	font-family: 'Comfortaa', cursive ;
+	font-weight:400;
+	font-size:30px;
 	text-align:center;
-	
+	color:#58ACFA;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.formación img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+
+.formación h3{
+	font-family: 'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:18px;
+	color:#58ACFA;
+	line-height:30px;
+	text-align:center;
+}
+
+.formación p{
+	font-family: 'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:16px;
+	line-height:40px;
+	text-align:center;
+}
+
+footer{
+	width:100%;
+    margin:0 auto; 
+    margin-top:20px;
+	overflow:hidden;
+    background:none;		
+}
+
+footer h3{
+	font-family:'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:14px;
+	margin-top:20px;
+	text-align:center;
+	color:#58ACFA;
+	line-height:25px; 	
+}
+
+footer p{
+	font-family:'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:14px;
+	text-align:center;
+}
+
+
+footer h4{
+	font-family:'Comfortaa', cursive ;
+	font-weight:300px;
+	font-size:10px;
+	text-align:center;
+	line-height:40px;
+	margin-bottom:20px;	
 }
