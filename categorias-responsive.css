@@ -7,3 +7,49 @@
 	overflow:hidden;
 	background:none; 
 }
+
+#uno{
+	width:100%;
+	height:140px;
+	margin:auto;
+	margin-top:10px;
+	position:relative;
+	list-style:none;
+	padding:0px;
+	display:flex;
+
+	justify-content:center;
+	align-items:flex-end; 
+	background-color: red;
+}
+
+#uno img{
+	position:absolute;
+	top:0;
+	left:0;
+	max-width:100%;
+	max-height:140px;
+	opacity:0;
+	transition:all 2s;
+	display: flex;
+	align-self: center;
+ }
+
+
+
+#uno input[type="radio"] + label{
+    position:relative;
+	z-index:50;
+	margin:10px;
+
+	display:block;
+	width:10px;
+	height:10px;
+	background:none;
+	border-radius:50%;
+	border:2px solid;
+	border-color:#58ACFA;
+	cursor:pointer;  
+}
+
+}
