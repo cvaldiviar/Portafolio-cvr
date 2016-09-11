@@ -26,18 +26,19 @@
 .reseña p{
 	font-family: 'Comfortaa', cursive ;
 	font-weight:300px;
-	font-size:18px;
-    margin-top:78px;
-    margin-bottom:44px; 
+	font-size:14px;
+    margin-top:30px;
+    margin-bottom:20px; 
 	line-height:30px;
 }
 
 .formación{
 	width:100%;
-	height:900px;
+	height:950px;
 	background:#58ACFA;
-	padding:40px;
-	box-sizing:border-box;
+	float: bottom;
+	margin-left: 0;
+    padding:40px;
 }
 
 .formación h2{
