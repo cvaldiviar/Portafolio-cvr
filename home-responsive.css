@@ -9,10 +9,14 @@
 }
 
 nav{
-    width:100%;
+    width:20%;
 	height:80px;
-	margin:10px auto;
-	background-color:#58ACFA;
+    margin-left: 0;
+    background: url("iconos/menu.png") no-repeat top left ;
+    background-color:#58ACFA;
+	left: 0;
+	position: absolute;
+	top: 143px;
 }
 
 
@@ -23,23 +27,39 @@ nav ul{
 }
 
 nav ul li{
-	float:left;
+	float:none;
 	width:25%;
-	height:80px;
+	height:0px;
 	background-color:none;
-	position: relative; 
+	opacity: 0; 
 
 }
 
-nav li ul{
-	display: none; 
-	position: absolute; 
-	left: 99px; 
-	top: 0;
+nav ul li a{
+	text-decoration:none;
+	text-align:center;
+	line-height:80px;
+	color:white;
+	padding:0px;
+	display:block;
+	
 }
 
-li:hover ul { display: block; }
+nav h4{
 
+	font-family: 'Comfortaa', cursive;
+	font-weight:400;
+	font-size:18px;
+}
+
+nav ul li a:hover{
+	background-color:#5882FA;    
+}
+
+.link{
+	pointer-events:none;
+	cursor: default;
+}
 
 .izquierda{
 	width:100%;
