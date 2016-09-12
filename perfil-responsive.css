@@ -8,6 +8,49 @@
 	background:none; 
 }
 
+nav {
+    width:100%;
+	height:60px;
+	margin:10px auto;
+	margin-bottom: 20px;
+	background-color: #58ACFA;
+}
+
+
+nav ul{
+	list-style:none;
+	width:100%;
+	height:60px;
+}
+
+nav ul li{
+	float:left;
+	width:20%;
+	height:60px;
+	background-color:#58ACFA; 
+
+}
+
+nav ul li a{
+	text-decoration:none;
+	text-align:center;
+	line-height:60px;
+	color:white;
+	padding:0px;
+	display:block;
+}
+
+nav h4{
+
+	font-family: 'Comfortaa', cursive;
+	font-weight:400;
+	font-size:10px;
+}
+
+nav ul li a:hover{
+	background-color:#5882FA; 
+}
+
 .main{
 	width:100%;
 	background:none;
