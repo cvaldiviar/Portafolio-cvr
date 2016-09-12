@@ -8,58 +8,6 @@
 	background:none; 
 }
 
-nav{
-    width:20%;
-	height:80px;
-    margin-left: 0;
-    background: url("iconos/menu.png") no-repeat top left ;
-    background-color:#58ACFA;
-	left: 0;
-	position: absolute;
-	top: 143px;
-}
-
-
-nav ul{
-	list-style:none;
-	width:100%;
-	height:80px;
-}
-
-nav ul li{
-	float:none;
-	width:25%;
-	height:0px;
-	background-color:none;
-	opacity: 0; 
-
-}
-
-nav ul li a{
-	text-decoration:none;
-	text-align:center;
-	line-height:80px;
-	color:white;
-	padding:0px;
-	display:block;
-	
-}
-
-nav h4{
-
-	font-family: 'Comfortaa', cursive;
-	font-weight:400;
-	font-size:18px;
-}
-
-nav ul li a:hover{
-	background-color:#5882FA;    
-}
-
-.link{
-	pointer-events:none;
-	cursor: default;
-}
 
 .izquierda{
 	width:100%;

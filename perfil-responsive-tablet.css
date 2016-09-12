@@ -8,6 +8,13 @@
 	background:none; 
 }
 
+nav h4{
+
+	font-family: 'Comfortaa', cursive;
+	font-weight:400;
+	font-size:16px;
+}
+
 .main{
 	width:100%;
 	background:none;
